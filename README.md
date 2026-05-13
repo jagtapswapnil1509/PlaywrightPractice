@@ -10,6 +10,7 @@ The repository is organized into chapters, each focusing on different aspects of
 - **Chapter_02_JavaScript_Concepts**: JavaScript basics relevant to Playwright automation
 - **Chapter_03_Identifier_Literals**: JavaScript identifiers, literals, and syntax rules
 - **Chapter_04_Javascript_Basics.js**: JavaScript fundamentals and concepts including hoisting
+- **Chapter_05_Literals**: JavaScript literals including numbers, strings, null, undefined, and template literals
 
 ## Getting Started
 
