@@ -2,26 +2,69 @@
 
 This repository contains practice exercises and examples for learning Playwright and core JavaScript concepts used in automation.
 
-## Structure
+## Repository Structure
 
-The repository is organized into chapters, each focusing on different aspects of Playwright, JavaScript fundamentals, and browser automation:
-
-- **Chapter_01_Basics**: Fundamental Playwright concepts and setup
-- **Chapter_02_JavaScript_Concepts**: JavaScript basics relevant to Playwright automation
-- **Chapter_03_Identifier_Literals**: JavaScript identifiers, literals, and syntax rules
-- **Chapter_04_Javascript_Basics.js**: JavaScript fundamentals and concepts including hoisting
-- **Chapter_05_Literals**: JavaScript literals including numbers, strings, null, undefined, and template literals
+- **Chapter_01_Basics**: Playwright setup and first example scripts
+  - `01_Basics.js`
+  - `02_JS.js`
+  - `03_verify_setup.js`
+  - `04_Hotcode.js`
+- **Chapter_02_JavaScript_Concepts**: JavaScript basics relevant to automation
+  - `05_JS_Basics.js`
+- **Chapter_03_Identifier_Literals**: Identifier rules, literals, and comment patterns
+  - `06_Identifer_Rules.js`
+  - `07_Identifier_RulesPart2.js`
+  - `08_comments.js`
+  - `VS_Code_Keyboard_shortcuts.md`
+- **Chapter_04_Javascript_Basics.js**: JavaScript variable scope, functions, and hoisting
+  - `09_var_let_const.js`
+  - `10_function.js`
+  - `11_var_explained.js`
+  - `12_let_people_love.js`
+  - `13_const_explained.js`
+  - `14_var_function_scope.js`
+  - `15_let_scope.js`
+  - `16_Hoisting.js`
+  - `17_Hoisting_fun.js`
+  - `18_let_hoisting.js`
+  - `19_let_hoisting_block.js`
+  - `20_let_const_js`
+  - `21_Jr_QA.js`
+- **Chapter_05_Literals**: JavaScript literals and value types
+  - `22_Liternals.js`
+  - `23_null_undeifned.js`
+  - `24_null.js`
+  - `25_Literals_All.js`
+  - `26_Literal_Number_all.js`
+  - `27_String.js`
+  - `28_Template_Literals.js`
+  - `29_Backtick_single_double.js`
 
 ## Getting Started
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run the examples using Node.js
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/PlaywrightPractice.git
+   cd PlaywrightPractice
+   ```
+2. Install dependencies (if using Playwright or additional packages):
+   ```bash
+   npm install
+   ```
+3. Run any example file with Node.js:
+   ```bash
+   node Chapter_01_Basics/01_Basics.js
+   ```
 
 ## Prerequisites
 
-- Node.js
-- Playwright
+- Node.js installed
+- Playwright installed if you want to run browser automation examples
+
+## Notes
+
+- The repository is focused on learning and practicing JavaScript and Playwright automation concepts.
+- Some examples are purely JavaScript-focused, while others relate to Playwright setup and automation.
 
 ## License
 
