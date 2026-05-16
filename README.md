@@ -39,6 +39,17 @@ This repository contains practice exercises and examples for learning Playwright
   - `27_String.js`
   - `28_Template_Literals.js`
   - `29_Backtick_single_double.js`
+- **Chapter_06_Operator**: JavaScript operators and comparisons
+  - `30_Operator.js`
+  - `31_Arthmatic_OP.js`
+  - `32_Modules_OP.js`
+  - `33_Expotential_OP.js`
+  - `34_InterviewQ.js`
+  - `35_Comparison_OP.js`
+  - `36_Comparison_Strict_loose.js`
+  - `37_IQ_Loose_Strict.js`
+  - `38_confusing_comparison.js`
+  - `44_Null_OP.js`
 
 ## Getting Started
 
