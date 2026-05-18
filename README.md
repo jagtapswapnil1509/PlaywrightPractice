@@ -49,7 +49,17 @@ This repository contains practice exercises and examples for learning Playwright
   - `36_Comparison_Strict_loose.js`
   - `37_IQ_Loose_Strict.js`
   - `38_confusing_comparison.js`
+  - `39_Logical_OP.js`
+  - `40_String_Concatination_OP.js`
+  - `41_Ternary_OP.js`
+  - `42_Type_OP.js`
+  - `43_Increment_Decrement_OP.js`
   - `44_Null_OP.js`
+  - `45_post_increment.js`
+  - `46_IQ_Increment_Decrement.js`
+  - `47_Advance_increment.js`
+- **PracticeExcercies**: additional JavaScript practice exercises
+  - `Practice1_till_15May.js`
 
 ## Getting Started
 
