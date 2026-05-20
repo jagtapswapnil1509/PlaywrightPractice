@@ -58,8 +58,21 @@ This repository contains practice exercises and examples for learning Playwright
   - `45_post_increment.js`
   - `46_IQ_Increment_Decrement.js`
   - `47_Advance_increment.js`
+- **Chapter_07_If_else**: Conditional statements and practical examples
+  - `48_if_else.js`
+  - `49_if_elseif_else.js`
+  - `50_Real_if_else.js`
+  - `51_API_if_else.js`
+  - `52_IQ_if_else.js`
+  - `53_If_else_real.js`
+  - `54_IQ.js`
+  - `55_IF.js`
+  - `56_IQ_Even_odd.js`
+  - `57_Grade_Cal.js`
+  - `58_LEAP_Year.js`
 - **PracticeExcercies**: additional JavaScript practice exercises
   - `Practice1_till_15May.js`
+  - `Practice2_If_Else.js`
 
 ## Getting Started
 
@@ -71,6 +84,7 @@ This repository contains practice exercises and examples for learning Playwright
 2. Install dependencies (if using Playwright or additional packages):
    ```bash
    npm install
+   npx playwright install
    ```
 3. Run any example file with Node.js:
    ```bash
@@ -80,7 +94,7 @@ This repository contains practice exercises and examples for learning Playwright
 ## Prerequisites
 
 - Node.js installed
-- Playwright installed if you want to run browser automation examples
+- Playwright installed if you want to run browser automation examples (`npx playwright install`)
 
 ## Notes
 
