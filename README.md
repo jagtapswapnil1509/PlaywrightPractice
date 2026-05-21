@@ -70,7 +70,21 @@ This repository contains practice exercises and examples for learning Playwright
   - `56_IQ_Even_odd.js`
   - `57_Grade_Cal.js`
   - `58_LEAP_Year.js`
-- **PracticeExcercies**: additional JavaScript practice exercises
+- **Chapter_08_Switch_Statements**: Switch statements and case logic
+  - `59_Switch.js`
+  - `60_No_break.js`
+  - `61_Default.js`
+  - `62_Real_Time_example.js`
+  - `63_Switch_Group.js`
+  - `64_IQ.js`
+  - `65_IQ2.js`
+  - `66_IQ3.js`
+  - `67_IQ4.js`
+- **Chapter_09_User_Input**: Node.js input handling and prompts
+  - `68_User_input.js`
+  - `69_Node_Readline.js`
+  - `70_Prompt_synch.js`
+- **PracticeExcercies**: Additional practice exercises
   - `Practice1_till_15May.js`
   - `Practice2_If_Else.js`
 
@@ -81,7 +95,7 @@ This repository contains practice exercises and examples for learning Playwright
    git clone https://github.com/yourusername/PlaywrightPractice.git
    cd PlaywrightPractice
    ```
-2. Install dependencies (if using Playwright or additional packages):
+2. Install dependencies if needed:
    ```bash
    npm install
    npx playwright install
@@ -94,12 +108,12 @@ This repository contains practice exercises and examples for learning Playwright
 ## Prerequisites
 
 - Node.js installed
-- Playwright installed if you want to run browser automation examples (`npx playwright install`)
+- Playwright installed for browser automation examples (`npx playwright install`)
 
 ## Notes
 
-- The repository is focused on learning and practicing JavaScript and Playwright automation concepts.
-- Some examples are purely JavaScript-focused, while others relate to Playwright setup and automation.
+- This repository is focused on learning JavaScript fundamentals and Playwright automation practice.
+- Many scripts are standalone JavaScript exercises; only the first chapter contains Playwright setup examples.
 
 ## License
 
