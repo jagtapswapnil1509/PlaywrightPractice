@@ -97,6 +97,11 @@ A collection of Playwright automation examples and JavaScript practice exercises
   - `80_IQ2.js`
   - `81_IQ3.js`
   - `82_IQ4.js`
+- **Chapter_11_Arrays**: Array manipulation and methods
+  - `83_Arrays.js`
+  - `84_Arrays2.js`
+  - `85_Access_Array.js`
+  - `86_Arrays_Add_Remove.js`
 - **PracticeExcercies**: Additional practice code
   - `Practice1_till_15May.js`
   - `Practice2_If_Else.js`
