@@ -100,6 +100,8 @@ A collection of Playwright automation examples and JavaScript practice exercises
 - **PracticeExcercies**: Additional practice code
   - `Practice1_till_15May.js`
   - `Practice2_If_Else.js`
+  - `Practice3_Loops.js`
+  - `Practice4_Statement_Operator_Loops.js`
 
 ## Getting Started
 
