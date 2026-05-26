@@ -27,4 +27,8 @@ console.log(arr);
 arr.shift();
 console.log(arr);
 
-//Recording 30.26
+console.log(arr);
+arr.unshift(100);
+console.log(arr);
+arr.shift();
+console.log(arr);

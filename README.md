@@ -102,6 +102,11 @@ A collection of Playwright automation examples and JavaScript practice exercises
   - `84_Arrays2.js`
   - `85_Access_Array.js`
   - `86_Arrays_Add_Remove.js`
+  - `87_Adding_Remove2.js`
+  - `88_REAL_Example.js`
+  - `89_Searching.js`
+  - `90_Iterate.js`
+  - `91_Transform_array.js`
 - **PracticeExcercies**: Additional practice code
   - `Practice1_till_15May.js`
   - `Practice2_If_Else.js`
