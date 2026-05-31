@@ -107,6 +107,13 @@ A collection of Playwright automation examples and JavaScript practice exercises
   - `89_Searching.js`
   - `90_Iterate.js`
   - `91_Transform_array.js`
+  - `92_Arrays3.js`
+  - `93_Array_slicing.js`
+  - `94_Concat_array.js`
+  - `95_Array_Checking.js`
+- **Chapter_12_Functions**: Function definitions, types, and usage
+  - `96_functions.js`
+  - `97_Type1_Basic_functions.js`
 - **PracticeExcercies**: Additional practice code
   - `Practice1_till_15May.js`
   - `Practice2_If_Else.js`
