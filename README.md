@@ -114,6 +114,12 @@ A collection of Playwright automation examples and JavaScript practice exercises
 - **Chapter_12_Functions**: Function definitions, types, and usage
   - `96_functions.js`
   - `97_Type1_Basic_functions.js`
+  - `98_Type2_Fn_with_parameter_no_return.js`
+  - `99_Type3_Fn_withour_para_with_return.js`
+  - `100_Type4_Fn_with_para_with_return.js`
+  - `101_Template_Literal.js`
+  - `102_Fn_Expression.js`
+  - `103_Arrow_function.js`
 - **PracticeExcercies**: Additional practice code
   - `Practice1_till_15May.js`
   - `Practice2_If_Else.js`
