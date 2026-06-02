@@ -120,6 +120,20 @@ A collection of Playwright automation examples and JavaScript practice exercises
   - `101_Template_Literal.js`
   - `102_Fn_Expression.js`
   - `103_Arrow_function.js`
+  - `104_Arrow_Fn_Real.js`
+  - `105_IIFE.js`
+  - `106_Default_Param._Fn.js`
+  - `107_IQ.js`
+  - `108_Rest_Para_Fn.js`
+  - `109_IQ2.js`
+  - `110_Sprad_IQ.js`
+  - `111_Scope_Fn.js`
+  - `112_IQ.js`
+  - `113_Closure.js`
+  - `114_Closure_Ex.js`
+  - `115_API_Real_closure.js`
+  - `116_Higher_Order_Fn.js`
+  - `117_Pure_Fn.js`
 - **PracticeExcercies**: Additional practice code
   - `Practice1_till_15May.js`
   - `Practice2_If_Else.js`
