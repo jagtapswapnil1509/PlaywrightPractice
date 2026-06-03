@@ -134,6 +134,13 @@ A collection of Playwright automation examples and JavaScript practice exercises
   - `115_API_Real_closure.js`
   - `116_Higher_Order_Fn.js`
   - `117_Pure_Fn.js`
+- **Chapter_13_String**: String manipulation, properties, and methods
+  - `118_string.js`
+  - `119_string_properties.js`
+  - `120_search_check_string.js`
+  - `121_substring.js`
+  - `122_transform_str.js`
+  - `123_string_conversion.js`
 - **PracticeExcercies**: Additional practice code
   - `Practice1_till_15May.js`
   - `Practice2_If_Else.js`
