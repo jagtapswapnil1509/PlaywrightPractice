@@ -1,151 +1,23 @@
 ﻿# Playwright Practice
 
-A collection of Playwright automation examples and JavaScript practice exercises organized by topic. This repository is intended for learners who want to build automation skills while strengthening core JavaScript fundamentals.
+A collection of JavaScript practice exercises and Playwright automation examples organized into chapters. This repository is designed to help learners strengthen core JavaScript fundamentals while exploring browser automation concepts.
 
-## Repository Structure
+## Project Overview
 
-- **Chapter_01_Basics**: Playwright setup and first automation scripts
-  - `01_Basics.js`
-  - `02_JS.js`
-  - `03_verify_setup.js`
-  - `04_Hotcode.js`
-- **Chapter_02_JavaScript_Concepts**: JavaScript basics relevant to automation
-  - `05_JS_Basics.js`
-- **Chapter_03_Identifier_Literals**: Identifier rules, literals, and comment patterns
-  - `06_Identifer_Rules.js`
-  - `07_Identifier_RulesPart2.js`
-  - `08_comments.js`
-  - `VS_Code_Keyboard_shortcuts.md`
-- **Chapter_04_Javascript_Basics.js**: Variable declarations, scope, functions, and hoisting
-  - `09_var_let_const.js`
-  - `10_function.js`
-  - `11_var_explained.js`
-  - `12_let_people_love.js`
-  - `13_const_explained.js`
-  - `14_var_function_scope.js`
-  - `15_let_scope.js`
-  - `16_Hoisting.js`
-  - `17_Hoisting_fun.js`
-  - `18_let_hoisting.js`
-  - `19_let_hoisting_block.js`
-  - `20_let_const_js`
-  - `21_Jr_QA.js`
-- **Chapter_05_Literals**: JavaScript literal types and value behavior
-  - `22_Liternals.js`
-  - `23_null_undeifned.js`
-  - `24_null.js`
-  - `25_Literals_All.js`
-  - `26_Literal_Number_all.js`
-  - `27_String.js`
-  - `28_Template_Literals.js`
-  - `29_Backtick_single_double.js`
-- **Chapter_06_Operator**: Arithmetic, comparison, logical, and operator behavior
-  - `30_Operator.js`
-  - `31_Arthmatic_OP.js`
-  - `32_Modules_OP.js`
-  - `33_Expotential_OP.js`
-  - `34_InterviewQ.js`
-  - `35_Comparison_OP.js`
-  - `36_Comparison_Strict_loose.js`
-  - `37_IQ_Loose_Strict.js`
-  - `38_confusing_comparison.js`
-  - `39_Logical_OP.js`
-  - `40_String_Concatination_OP.js`
-  - `41_Ternary_OP.js`
-  - `42_Type_OP.js`
-  - `43_Increment_Decrement_OP.js`
-  - `44_Null_OP.js`
-  - `45_post_increment.js`
-  - `46_IQ_Increment_Decrement.js`
-  - `47_Advance_increment.js`
-- **Chapter_07_If_else**: Conditional logic and real-world examples
-  - `48_if_else.js`
-  - `49_if_elseif_else.js`
-  - `50_Real_if_else.js`
-  - `51_API_if_else.js`
-  - `52_IQ_if_else.js`
-  - `53_If_else_real.js`
-  - `54_IQ.js`
-  - `55_IF.js`
-  - `56_IQ_Even_odd.js`
-  - `57_Grade_Cal.js`
-  - `58_LEAP_Year.js`
-- **Chapter_08_Switch_Statements**: Switch/case statements and branching
-  - `59_Switch.js`
-  - `60_No_break.js`
-  - `61_Default.js`
-  - `62_Real_Time_example.js`
-  - `63_Switch_Group.js`
-  - `64_IQ.js`
-  - `65_IQ2.js`
-  - `66_IQ3.js`
-  - `67_IQ4.js`
-- **Chapter_09_User_Input**: Node.js input handling and prompt examples
-  - `68_User_input.js`
-  - `69_Node_Readline.js`
-  - `70_Prompt_synch.js`
-- **Chapter_10_Loops**: Loop structures and iteration examples
-  - `71_for_loop_Intro.js`
-  - `72_for_loop.js`
-  - `73_for_loop2.js`
-  - `74_IQ.js`
-  - `75_For_of_in_each.js`
-  - `76_while.js`
-  - `77_do_while_.js`
-  - `78_do_while_real.js`
-  - `79_IQ.js`
-  - `80_IQ2.js`
-  - `81_IQ3.js`
-  - `82_IQ4.js`
-- **Chapter_11_Arrays**: Array manipulation and methods
-  - `83_Arrays.js`
-  - `84_Arrays2.js`
-  - `85_Access_Array.js`
-  - `86_Arrays_Add_Remove.js`
-  - `87_Adding_Remove2.js`
-  - `88_REAL_Example.js`
-  - `89_Searching.js`
-  - `90_Iterate.js`
-  - `91_Transform_array.js`
-  - `92_Arrays3.js`
-  - `93_Array_slicing.js`
-  - `94_Concat_array.js`
-  - `95_Array_Checking.js`
-- **Chapter_12_Functions**: Function definitions, types, and usage
-  - `96_functions.js`
-  - `97_Type1_Basic_functions.js`
-  - `98_Type2_Fn_with_parameter_no_return.js`
-  - `99_Type3_Fn_withour_para_with_return.js`
-  - `100_Type4_Fn_with_para_with_return.js`
-  - `101_Template_Literal.js`
-  - `102_Fn_Expression.js`
-  - `103_Arrow_function.js`
-  - `104_Arrow_Fn_Real.js`
-  - `105_IIFE.js`
-  - `106_Default_Param._Fn.js`
-  - `107_IQ.js`
-  - `108_Rest_Para_Fn.js`
-  - `109_IQ2.js`
-  - `110_Sprad_IQ.js`
-  - `111_Scope_Fn.js`
-  - `112_IQ.js`
-  - `113_Closure.js`
-  - `114_Closure_Ex.js`
-  - `115_API_Real_closure.js`
-  - `116_Higher_Order_Fn.js`
-  - `117_Pure_Fn.js`
-- **Chapter_13_String**: String manipulation, properties, and methods
-  - `118_string.js`
-  - `119_string_properties.js`
-  - `120_search_check_string.js`
-  - `121_substring.js`
-  - `122_transform_str.js`
-  - `123_string_conversion.js`
-- **PracticeExcercies**: Additional practice code
-  - `Practice1_till_15May.js`
-  - `Practice2_If_Else.js`
-  - `Practice3_Loops.js`
-  - `Practice4_Statement_Operator_Loops.js`
+- `Chapter_01_Basics`: Playwright setup and first automation scripts
+- `Chapter_02_JavaScript_Concepts`: JavaScript fundamentals relevant to automation
+- `Chapter_03_Identifier_Literals`: Identifier rules, literals, and comments
+- `Chapter_04_Javascript_Basics.js`: Variables, scope, functions, and hoisting
+- `Chapter_05_Literals`: JavaScript literals and value behavior
+- `Chapter_06_Operator`: Arithmetic, comparison, logical, and operator behavior
+- `Chapter_07_If_else`: Conditional logic and real-world examples
+- `Chapter_08_Switch_Statements`: `switch`/`case` statements and branching
+- `Chapter_09_User_Input`: Node.js user input examples
+- `Chapter_10_Loops`: Loop constructs and iteration patterns
+- `Chapter_11_Arrays`: Array methods and data manipulation
+- `Chapter_12_Functions`: Function definitions, parameters, return values, closures, and higher-order functions
+- `Chapter_13_String`: String methods, transformations, and search operations
+- `PracticeExcercies`: Additional practice exercises
 
 ## Getting Started
 
@@ -154,26 +26,33 @@ A collection of Playwright automation examples and JavaScript practice exercises
    git clone https://github.com/yourusername/PlaywrightPractice.git
    cd PlaywrightPractice
    ```
-2. Install dependencies and Playwright browsers:
-   ```bash
-   npm install
-   npx playwright install
-   ```
-3. Run a JavaScript file with Node.js:
+
+2. Make sure you have Node.js installed (recommended version 16 or newer).
+
+3. Run a script with Node.js:
    ```bash
    node Chapter_01_Basics/01_Basics.js
    ```
 
-## Prerequisites
+> Note: This repository does not currently include a `package.json` file, so install dependencies manually if you add them later.
 
-- Node.js installed (recommended version 16 or newer)
-- Optional: Playwright installed for browser automation examples
+## How to Use
+
+- Explore the chapters in order to build foundational JavaScript knowledge.
+- Open individual `.js` files in a code editor to read comments and run examples.
+- Run Playwright or browser automation scripts from `Chapter_01_Basics` if Playwright is installed.
+
+## Recommended Workflow
+
+1. Start with basic JavaScript concepts in the early chapters.
+2. Practice conditional logic, loops, arrays, and functions.
+3. Review Playwright and automation examples once you are comfortable with JavaScript syntax.
 
 ## Notes
 
-- Most chapters are standalone JavaScript practice exercises.
-- Playwright-specific examples are primarily located in `Chapter_01_Basics`.
-- If a file requires browser automation, use `npx playwright test` or `node` depending on the script.
+- Most files are standalone exercises.
+- If you add new Playwright scripts, consider adding a `package.json` and installing Playwright dependencies.
+- The folder names are organized by topic to make navigation easier.
 
 ## License
 
