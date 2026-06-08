@@ -4,5 +4,5 @@ function greetByName(name){
 }
 
 greetByName("Swapnil");
-let a = greetByName("Jagtap");
-console.log(a);
+// let a = greetByName("Jagtap");
+// console.log(a);
