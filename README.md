@@ -1,23 +1,23 @@
 ﻿# Playwright Practice
 
-A collection of JavaScript practice exercises and Playwright automation examples organized into chapters. This repository is designed to help learners strengthen core JavaScript fundamentals while exploring browser automation concepts.
+A study repository for JavaScript fundamentals and Playwright automation practice. This collection is organized by topic so learners can build skills from core JavaScript concepts toward browser automation.
 
-## Project Overview
+## Project Structure
 
 - `Chapter_01_Basics`: Playwright setup and first automation scripts
 - `Chapter_02_JavaScript_Concepts`: JavaScript fundamentals relevant to automation
 - `Chapter_03_Identifier_Literals`: Identifier rules, literals, and comments
 - `Chapter_04_Javascript_Basics.js`: Variables, scope, functions, and hoisting
-- `Chapter_05_Literals`: JavaScript literals and value behavior
+- `Chapter_05_Literals`: JavaScript literal types and value behavior
 - `Chapter_06_Operator`: Arithmetic, comparison, logical, and operator behavior
-- `Chapter_07_If_else`: Conditional logic and real-world examples
+- `Chapter_07_If_else`: Conditional logic examples
 - `Chapter_08_Switch_Statements`: `switch`/`case` statements and branching
 - `Chapter_09_User_Input`: Node.js user input examples
-- `Chapter_10_Loops`: Loop constructs and iteration patterns
-- `Chapter_11_Arrays`: Array methods and data manipulation
+- `Chapter_10_Loops`: For, while, and do/while loops
+- `Chapter_11_Arrays`: Array operations and data manipulation
 - `Chapter_12_Functions`: Function definitions, parameters, return values, closures, and higher-order functions
-- `Chapter_13_String`: String methods, transformations, and search operations
-- `PracticeExcercies`: Additional practice exercises
+- `Chapter_13_String`: String methods, formatting, and search operations
+- `PracticeExcercies`: Additional exercises and practice problems
 
 ## Getting Started
 
@@ -27,32 +27,38 @@ A collection of JavaScript practice exercises and Playwright automation examples
    cd PlaywrightPractice
    ```
 
-2. Make sure you have Node.js installed (recommended version 16 or newer).
+2. Install Node.js if needed (recommended version 16 or newer).
 
-3. Run a script with Node.js:
+3. Run a JavaScript exercise file:
    ```bash
    node Chapter_01_Basics/01_Basics.js
    ```
 
-> Note: This repository does not currently include a `package.json` file, so install dependencies manually if you add them later.
+> Note: This repository currently does not include a `package.json` file. If you add dependencies later, create one and install them with `npm install`.
 
-## How to Use
+## Usage
 
-- Explore the chapters in order to build foundational JavaScript knowledge.
-- Open individual `.js` files in a code editor to read comments and run examples.
-- Run Playwright or browser automation scripts from `Chapter_01_Basics` if Playwright is installed.
+- Open individual `.js` files to study code examples and comments.
+- Work through chapters sequentially to reinforce JavaScript fundamentals.
+- Run Playwright scripts from `Chapter_01_Basics` after installing Playwright.
 
 ## Recommended Workflow
 
-1. Start with basic JavaScript concepts in the early chapters.
-2. Practice conditional logic, loops, arrays, and functions.
-3. Review Playwright and automation examples once you are comfortable with JavaScript syntax.
+1. Review the first chapters to learn basic JavaScript syntax.
+2. Practice conditionals, loops, arrays, and functions.
+3. Add or update automation scripts once you are comfortable with the basics.
+
+## Contribution
+
+- Add new exercises in the appropriate chapter folder.
+- Keep examples simple and focused on one topic.
+- Update this README if you add new Playwright or Node.js support files.
 
 ## Notes
 
 - Most files are standalone exercises.
-- If you add new Playwright scripts, consider adding a `package.json` and installing Playwright dependencies.
-- The folder names are organized by topic to make navigation easier.
+- Chapter folders are organized by topic to make navigation easier.
+- Fix typos or update examples as you continue practicing.
 
 ## License
 
