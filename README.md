@@ -16,8 +16,7 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 - `Chapter_10_Loops`: For, while, and do/while loops
 - `Chapter_11_Arrays`: Array operations and data manipulation
 - `Chapter_12_Functions`: Function definitions, parameters, return values, closures, and higher-order functions
-- `Chapter_13_String`: String methods, formatting, and search operations
-- `PracticeExcercies`: Additional exercises and practice problems
+- `Chapter_13_String`: String methods, formatting, and search operations- `Chapter_15_2D_Array`: 2D array exercises and pattern examples- `PracticeExcercies`: Additional exercises and practice problems
 
 ## Getting Started
 
