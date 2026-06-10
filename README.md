@@ -16,7 +16,11 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 - `Chapter_10_Loops`: For, while, and do/while loops
 - `Chapter_11_Arrays`: Array operations and data manipulation
 - `Chapter_12_Functions`: Function definitions, parameters, return values, closures, and higher-order functions
-- `Chapter_13_String`: String methods, formatting, and search operations- `Chapter_15_2D_Array`: 2D array exercises and pattern examples- `PracticeExcercies`: Additional exercises and practice problems
+- `Chapter_13_String`: String methods, formatting, and search operations
+- `Chapter_14_Objects`: Object creation, methods, destructuring, and reference behavior
+- `Chapter_15_2D_Array`: 2D array exercises and pattern examples
+- `Chapter_16_Callback`: Callback functions, asynchronous patterns, and callback hell examples
+- `PracticeExcercies`: Additional exercises and practice problems
 
 ## Getting Started
 
@@ -40,24 +44,26 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 - Open individual `.js` files to study code examples and comments.
 - Work through chapters sequentially to reinforce JavaScript fundamentals.
 - Run Playwright scripts from `Chapter_01_Basics` after installing Playwright.
+- Explore `Chapter_16_Callback` for synchronous and asynchronous callback examples.
 
 ## Recommended Workflow
 
 1. Review the first chapters to learn basic JavaScript syntax.
-2. Practice conditionals, loops, arrays, and functions.
-3. Add or update automation scripts once you are comfortable with the basics.
+2. Practice conditionals, loops, arrays, objects, and functions.
+3. Study callback patterns and asynchronous behavior in `Chapter_16_Callback`.
+4. Add or update automation scripts once you are comfortable with the basics.
 
 ## Contribution
 
 - Add new exercises in the appropriate chapter folder.
 - Keep examples simple and focused on one topic.
-- Update this README if you add new Playwright or Node.js support files.
+- Update this README when new chapters or examples are added.
 
 ## Notes
 
 - Most files are standalone exercises.
 - Chapter folders are organized by topic to make navigation easier.
-- Fix typos or update examples as you continue practicing.
+- The repository now includes callback-focused examples in `Chapter_16_Callback`.
 
 ## License
 
