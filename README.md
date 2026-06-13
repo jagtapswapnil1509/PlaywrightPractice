@@ -20,6 +20,7 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 - `Chapter_14_Objects`: Object creation, methods, destructuring, and reference behavior
 - `Chapter_15_2D_Array`: 2D array exercises and pattern examples
 - `Chapter_16_Callback`: Callback functions, asynchronous patterns, and callback hell examples
+- `Chapter_17_Promise`: Promise creation, chaining, real API examples, `finally`, and `Promise.all`
 - `PracticeExcercies`: Additional exercises and practice problems
 
 ## Getting Started
@@ -44,7 +45,7 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 - Open individual `.js` files to study code examples and comments.
 - Work through chapters sequentially to reinforce JavaScript fundamentals.
 - Run Playwright scripts from `Chapter_01_Basics` after installing Playwright.
-- Explore `Chapter_16_Callback` for synchronous and asynchronous callback examples.
+- Explore `Chapter_16_Callback` for callback examples and `Chapter_17_Promise` for Promise-based asynchronous flow.
 
 ## Recommended Workflow
 
@@ -63,7 +64,7 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 
 - Most files are standalone exercises.
 - Chapter folders are organized by topic to make navigation easier.
-- The repository now includes callback-focused examples in `Chapter_16_Callback`.
+- The repository now includes callback-focused examples in `Chapter_16_Callback` and Promise-focused examples in `Chapter_17_Promise`.
 
 ## License
 
