@@ -21,6 +21,8 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 - `Chapter_15_2D_Array`: 2D array exercises and pattern examples
 - `Chapter_16_Callback`: Callback functions, asynchronous patterns, and callback hell examples
 - `Chapter_17_Promise`: Promise creation, chaining, real API examples, `finally`, and `Promise.all`
+- `Chapter_18_Async_await`: Async/await patterns, async functions, error handling, and Promise integration
+- `Chapter_19_PlaywrightBasics`: Browser automation examples with Playwright
 - `PracticeExcercies`: Additional exercises and practice problems
 
 ## Getting Started
