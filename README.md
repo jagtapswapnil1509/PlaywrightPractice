@@ -68,6 +68,10 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 - Chapter folders are organized by topic to make navigation easier.
 - The repository now includes callback-focused examples in `Chapter_16_Callback` and Promise-focused examples in `Chapter_17_Promise`.
 
+## Recent Fixes
+
+- 2026-06-20: Renamed an accidentally misnamed `logger..js` to `logger.js` and fixed import in `Chapter_20_Typescript_Basics/EXPORT_IMPORT/171_logger.js`.
+
 ## License
 
 Educational use only.
