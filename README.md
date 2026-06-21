@@ -75,3 +75,22 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 ## License
 
 Educational use only.
+
+## Playwright Tests
+
+- Tests live in the Chapter_19_PlaywrightBasics tests folder: [Chapter_19_PlaywrightBasics/tests](Chapter_19_PlaywrightBasics/tests)
+
+- Quick start to run Playwright tests locally:
+   ```bash
+   npm init -y
+   npm install -D @playwright/test
+   npx playwright install
+   npx playwright test
+   ```
+
+- Run a single test file:
+   ```bash
+   npx playwright test Chapter_19_PlaywrightBasics/tests/example.spec.ts
+   ```
+
+- If you use the existing `playwright.config.ts`, the `npx playwright test` command will pick up configured projects and settings.
