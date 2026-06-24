@@ -23,7 +23,8 @@ A study repository for JavaScript fundamentals and Playwright automation practic
 - `Chapter_17_Promise`: Promise creation, chaining, real API examples, `finally`, and `Promise.all`
 - `Chapter_18_Async_await`: Async/await patterns, async functions, error handling, and Promise integration
 - `Chapter_19_PlaywrightBasics`: Browser automation examples with Playwright
-- `PracticeExcercies`: Additional exercises and practice problems
+- `Chapter_20_OOPS_Basics`: Object-oriented programming basics, classes, and object exercises
+- `PracticeExcercies`: Additional exercises and practice problems, including class/object practice files
 
 ## Getting Started
 
