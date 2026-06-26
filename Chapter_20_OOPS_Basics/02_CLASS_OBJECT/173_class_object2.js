@@ -18,6 +18,7 @@ class Person{
 }
 
 const obj_ref = new Person();
+// let obj_ref = new Person(); -> it can be let keyword as well
 // obj_ref -> this is called the object referance(address)
 // new Person(); -> this is object with new keyword
 

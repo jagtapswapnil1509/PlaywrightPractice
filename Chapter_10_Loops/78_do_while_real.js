@@ -1,10 +1,10 @@
-let retry = 0;
+// let retry = 0;
 
-do {
+// do {
 
-    console.log("Execute a code");
-    console.log("Retrying", retry);
-    retry++;
+//     console.log("Execute a code");
+//     console.log("Retrying", retry);
+//     retry++;
 
-} while (retry < 3);
+// } while (retry < 3);
 
