@@ -1,30 +1,28 @@
 ﻿# Playwright Practice
 
-A study repository for JavaScript fundamentals and Playwright automation practice. This collection is organized by topic so learners can build skills from core JavaScript concepts toward browser automation.
+A hands-on study repository for JavaScript fundamentals, asynchronous programming, object-oriented programming, and Playwright automation. The chapters are arranged progressively so learners can move from core syntax to browser automation.
 
-## Project Structure
+## What’s Covered
 
-- `Chapter_01_Basics`: Playwright setup and first automation scripts
-- `Chapter_02_JavaScript_Concepts`: JavaScript fundamentals relevant to automation
-- `Chapter_03_Identifier_Literals`: Identifier rules, literals, and comments
-- `Chapter_04_Javascript_Basics.js`: Variables, scope, functions, and hoisting
-- `Chapter_05_Literals`: JavaScript literal types and value behavior
-- `Chapter_06_Operator`: Arithmetic, comparison, logical, and operator behavior
-- `Chapter_07_If_else`: Conditional logic examples
-- `Chapter_08_Switch_Statements`: `switch`/`case` statements and branching
-- `Chapter_09_User_Input`: Node.js user input examples
-- `Chapter_10_Loops`: For, while, and do/while loops
-- `Chapter_11_Arrays`: Array operations and data manipulation
-- `Chapter_12_Functions`: Function definitions, parameters, return values, closures, and higher-order functions
-- `Chapter_13_String`: String methods, formatting, and search operations
-- `Chapter_14_Objects`: Object creation, methods, destructuring, and reference behavior
-- `Chapter_15_2D_Array`: 2D array exercises and pattern examples
-- `Chapter_16_Callback`: Callback functions, asynchronous patterns, and callback hell examples
-- `Chapter_17_Promise`: Promise creation, chaining, real API examples, `finally`, and `Promise.all`
-- `Chapter_18_Async_await`: Async/await patterns, async functions, error handling, and Promise integration
-- `Chapter_19_PlaywrightBasics`: Browser automation examples with Playwright
-- `Chapter_20_OOPS_Basics`: Object-oriented programming basics, classes, and object exercises
-- `PracticeExcercies`: Additional exercises and practice problems, including class/object practice files
+- JavaScript basics from Chapter 01 through Chapter 15, including variables, operators, conditionals, loops, arrays, functions, strings, objects, and 2D arrays.
+- Asynchronous JavaScript examples in Chapter 16, Chapter 17, and Chapter 18, including callbacks, promises, `finally`, `Promise.all`, and async/await.
+- Object-oriented programming examples in Chapter 20, including export/import practice, classes, objects, encapsulation, inheritance, and polymorphism.
+- Playwright automation examples and test scripts in Chapter 19.
+- Extra exercises and practice files in PracticeExcercies.
+
+## Repository Structure
+
+- Chapter_01_Basics: Basic JavaScript and setup-related scripts
+- Chapter_02_JavaScript_Concepts: Core JavaScript concepts
+- Chapter_03_Identifier_Literals: Identifiers, literals, and comments
+- Chapter_04_Javascript_Basics.js: Variables, hoisting, scope, and functions
+- Chapter_05_Literals to Chapter_15_2D_Array: Literals, operators, conditionals, loops, arrays, strings, objects, and arrays of arrays
+- Chapter_16_Callback: Callback patterns and callback-based examples
+- Chapter_17_Promise: Promise creation, chaining, real API examples, `finally`, and `Promise.all`
+- Chapter_18_Async_await: Async/await patterns and sequential/parallel flow examples
+- Chapter_19_PlaywrightBasics: Playwright setup, configuration, and tests
+- Chapter_20_OOPS_Basics: OOP basics with encapsulation, inheritance, and polymorphism
+- PracticeExcercies: Additional practice files and exercises
 
 ## Getting Started
 
@@ -34,64 +32,43 @@ A study repository for JavaScript fundamentals and Playwright automation practic
    cd PlaywrightPractice
    ```
 
-2. Install Node.js if needed (recommended version 16 or newer).
+2. Install Node.js (version 18 or newer is recommended).
 
 3. Run a JavaScript exercise file:
    ```bash
    node Chapter_01_Basics/01_Basics.js
    ```
 
-> Note: This repository currently does not include a `package.json` file. If you add dependencies later, create one and install them with `npm install`.
+## Running Playwright Tests
 
-## Usage
+The Playwright configuration is set up to target the test folder under Chapter_19_PlaywrightBasics.
 
-- Open individual `.js` files to study code examples and comments.
-- Work through chapters sequentially to reinforce JavaScript fundamentals.
-- Run Playwright scripts from `Chapter_01_Basics` after installing Playwright.
-- Explore `Chapter_16_Callback` for callback examples and `Chapter_17_Promise` for Promise-based asynchronous flow.
+```bash
+cd Chapter_19_PlaywrightBasics
+npm install
+npx playwright install
+npx playwright test
+```
 
-## Recommended Workflow
+To run a single spec file:
 
-1. Review the first chapters to learn basic JavaScript syntax.
-2. Practice conditionals, loops, arrays, objects, and functions.
-3. Study callback patterns and asynchronous behavior in `Chapter_16_Callback`.
-4. Add or update automation scripts once you are comfortable with the basics.
+```bash
+npx playwright test tests/example.spec.ts
+```
 
-## Contribution
+## Recent Updates
 
-- Add new exercises in the appropriate chapter folder.
-- Keep examples simple and focused on one topic.
-- Update this README when new chapters or examples are added.
+- Added new OOP practice files covering encapsulation, inheritance, and polymorphism.
+- Expanded the async programming section with promise and async/await examples.
+- Added Playwright test configuration and sample test structure.
+- Updated the repository layout to better reflect the current chapter content.
 
 ## Notes
 
-- Most files are standalone exercises.
-- Chapter folders are organized by topic to make navigation easier.
-- The repository now includes callback-focused examples in `Chapter_16_Callback` and Promise-focused examples in `Chapter_17_Promise`.
-
-## Recent Fixes
-
-- 2026-06-20: Renamed an accidentally misnamed `logger..js` to `logger.js` and fixed import in `Chapter_20_Typescript_Basics/EXPORT_IMPORT/171_logger.js`.
+- Most files are standalone exercises intended to be studied individually.
+- The repository is best used by working through the chapters in order.
+- The root Playwright configuration points tests to Chapter_19_PlaywrightBasics/tests.
 
 ## License
 
 Educational use only.
-
-## Playwright Tests
-
-- Tests live in the Chapter_19_PlaywrightBasics tests folder: [Chapter_19_PlaywrightBasics/tests](Chapter_19_PlaywrightBasics/tests)
-
-- Quick start to run Playwright tests locally:
-   ```bash
-   npm init -y
-   npm install -D @playwright/test
-   npx playwright install
-   npx playwright test
-   ```
-
-- Run a single test file:
-   ```bash
-   npx playwright test Chapter_19_PlaywrightBasics/tests/example.spec.ts
-   ```
-
-- If you use the existing `playwright.config.ts`, the `npx playwright test` command will pick up configured projects and settings.
