@@ -1,50 +1,54 @@
 ﻿# Playwright Practice
 
-A hands-on study repository for JavaScript fundamentals, asynchronous programming, object-oriented programming, and Playwright automation. The chapters are arranged progressively so learners can move from core syntax to browser automation.
+A hands-on learning repository for JavaScript, TypeScript, object-oriented programming, and Playwright automation. The chapters are arranged progressively so learners can move from core syntax to browser automation practice.
 
 ## What’s Covered
 
-- JavaScript basics from Chapter 01 through Chapter 15, including variables, operators, conditionals, loops, arrays, functions, strings, objects, and 2D arrays.
-- Asynchronous JavaScript examples in Chapter 16, Chapter 17, and Chapter 18, including callbacks, promises, `finally`, `Promise.all`, and async/await.
-- Object-oriented programming examples in Chapter 20, including export/import practice, classes, objects, encapsulation, inheritance, and polymorphism.
-- Playwright automation examples and test scripts in Chapter 19.
+- JavaScript fundamentals from Chapter 01 through Chapter 15, including variables, operators, conditionals, loops, arrays, functions, strings, objects, and 2D arrays.
+- Asynchronous JavaScript examples in Chapter 16, Chapter 17, and Chapter 18, including callbacks, promises, async/await, and promise handling patterns.
+- Object-oriented programming examples in Chapter 20 onward, including export/import practice, classes, objects, encapsulation, inheritance, and polymorphism.
+- TypeScript practice in Chapter 26_TypeScript, including type annotations, interfaces, and basic TS syntax.
+- Playwright automation examples and test scripts in Chapter 19_PlaywrightBasics.
 - Extra exercises and practice files in PracticeExcercies.
 
 ## Repository Structure
 
-- Chapter_01_Basics: Basic JavaScript and setup-related scripts
-- Chapter_02_JavaScript_Concepts: Core JavaScript concepts
-- Chapter_03_Identifier_Literals: Identifiers, literals, and comments
-- Chapter_04_Javascript_Basics.js: Variables, hoisting, scope, and functions
-- Chapter_05_Literals to Chapter_15_2D_Array: Literals, operators, conditionals, loops, arrays, strings, objects, and arrays of arrays
-- Chapter_16_Callback: Callback patterns and callback-based examples
-- Chapter_17_Promise: Promise creation, chaining, real API examples, `finally`, and `Promise.all`
-- Chapter_18_Async_await: Async/await patterns and sequential/parallel flow examples
+- Chapter_01_Basics to Chapter_15_2D_Array: Core JavaScript concepts and exercises
+- Chapter_16_Callback: Callback-based examples
+- Chapter_17_Promise: Promise creation, chaining, and promise handling
+- Chapter_18_Async_await: Async/await patterns and flow control
 - Chapter_19_PlaywrightBasics: Playwright setup, configuration, and tests
-- Chapter_20_OOPS_Basics: OOP basics with encapsulation, inheritance, and polymorphism
-- PracticeExcercies: Additional practice files and exercises
+- Chapter_20_EXPORT_IMPORT: Module export/import examples
+- Chapter_21_CLASS_OBJECT: Classes and objects
+- Chapter_22_ENCAPSULATION: Encapsulation examples
+- Chapter_23_Inheritance: Inheritance examples
+- Chapter_24_Polymorphism: Polymorphism examples
+- Chapter_25_OPPS_Interview_Questions: OOP interview practice
+- Chapter_26_TypeScript: TypeScript basics and practice files
+- PracticeExcercies: Additional exercises
+- test-results: Playwright test output
 
 ## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/PlaywrightPractice.git
-   cd PlaywrightPractice
-   ```
+1. Install Node.js (version 18 or newer is recommended).
+2. Clone the repository and open it in your editor.
+3. Run a JavaScript file:
 
-2. Install Node.js (version 18 or newer is recommended).
+```bash
+node Chapter_01_Basics/01_Basics.js
+```
 
-3. Run a JavaScript exercise file:
-   ```bash
-   node Chapter_01_Basics/01_Basics.js
-   ```
+4. Run a TypeScript example with the TypeScript compiler:
+
+```bash
+npx tsc Chapter_26_TypeScript/198_TS_Part3.ts
+```
 
 ## Running Playwright Tests
 
-The Playwright configuration is set up to target the test folder under Chapter_19_PlaywrightBasics.
+From the project root:
 
 ```bash
-cd Chapter_19_PlaywrightBasics
 npm install
 npx playwright install
 npx playwright test
@@ -53,21 +57,14 @@ npx playwright test
 To run a single spec file:
 
 ```bash
-npx playwright test tests/example.spec.ts
+npx playwright test Chapter_19_PlaywrightBasics/tests/example.spec.ts
 ```
-
-## Recent Updates
-
-- Added new OOP practice files covering encapsulation, inheritance, and polymorphism.
-- Expanded the async programming section with promise and async/await examples.
-- Added Playwright test configuration and sample test structure.
-- Updated the repository layout to better reflect the current chapter content.
 
 ## Notes
 
 - Most files are standalone exercises intended to be studied individually.
 - The repository is best used by working through the chapters in order.
-- The root Playwright configuration points tests to Chapter_19_PlaywrightBasics/tests.
+- The Playwright configuration points tests to the Chapter_19_PlaywrightBasics test folder.
 
 ## License
 
