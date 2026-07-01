@@ -1,0 +1,24 @@
+{
+  "name": "playwrightpractice",
+  "version": "1.0.0",
+  "description": "A hands-on learning repository for JavaScript, TypeScript, object-oriented programming, and Playwright automation. The chapters are arranged progressively so learners can move from core syntax to browser automation practice.",
+  "main": "Chapter_04_Javascript_Basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagtapswapnil1509/PlaywrightPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jagtapswapnil1509/PlaywrightPractice/issues"
+  },
+  "homepage": "https://github.com/jagtapswapnil1509/PlaywrightPractice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}

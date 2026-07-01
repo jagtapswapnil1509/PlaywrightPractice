@@ -1,5 +1,5 @@
 let testname = "Login Test";
 
-function(a,b){
+function test(a,b){
     return a+b;
 }

@@ -28,6 +28,17 @@ A hands-on learning repository for JavaScript, TypeScript, object-oriented progr
 - PracticeExcercies: Additional exercises
 - test-results: Playwright test output
 
+## Latest Additions
+
+Recent practice folders include:
+
+- TypeScript interface and configuration examples in Chapter 27
+- Enum-based examples in Chapter 28
+- Generic programming examples in Chapter 29
+- Access modifier practice with private/public/protected members in Chapter 30
+
+These additions help reinforce object-oriented programming concepts alongside the existing JavaScript and Playwright exercises.
+
 ## Getting Started
 
 1. Install Node.js (version 18 or newer is recommended).
